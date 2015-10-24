@@ -1,0 +1,64 @@
+body, html {
+}
+
+body {
+	/*background: center center;*/
+	/*background-color: #fff;*/
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  /*background: url("img/sushi_icons2.jpg") top center;*/
+  /*animation: fallingSushi 10s infinite  linear;*/
+	/*background-attachment: fixed;*/
+}
+
+@keyframes fallingSushi {
+  0% {
+	/*background-position: center 0px;*/
+  transform: translateY(-607px);
+  /*top: -607px;*/
+  }
+  100% {
+	/*background-position: center 607px;*/
+  transform: translateY(0);
+  /*top: 0;*/
+  }
+}
+
+
+
+.fallingSushi {
+  position: fixed;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    background: url('img/sushi_icons2a.png') top center;
+    /*opacity: 0.7;*/
+    /*background-size: cover;*/
+    will-change: transform;
+    /*transform: translateZ(0);*/
+    z-index: -1;
+    animation: fallingSushi 10s infinite  linear;
+}
+
+.selfie {
+  margin-top: 40%;
+}
+
+.buttons {
+  margin-bottom: 30%;
+}
+
+.cv h1, h2, h3, h4, h5, h6 {
+  color: #39546f;
+}
+
+.footer {
+  margin: 20%;
+}
