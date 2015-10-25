@@ -1,64 +1,66 @@
-body, html {
+html, body {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 body {
-	/*background: center center;*/
-	/*background-color: #fff;*/
+	background: #002b36 url(img/Paris_Metro_map_complete.svg) center center no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.page {
+.ui.grid.full.height {
 	height: 100%;
-	width: 100%;
 }
 
-body {
-  /*background: url("img/sushi_icons2.jpg") top center;*/
-  /*animation: fallingSushi 10s infinite  linear;*/
-	/*background-attachment: fixed;*/
+.ui.olive.header {
+	text-shadow: 0px 0px 5px #000;
 }
 
-@keyframes fallingSushi {
-  0% {
-	/*background-position: center 0px;*/
-  transform: translateY(-607px);
-  /*top: -607px;*/
-  }
-  100% {
-	/*background-position: center 607px;*/
-  transform: translateY(0);
-  /*top: 0;*/
-  }
+.ui.olive.header i.icon {
+	text-shadow: none;
+}
+
+.ui.small.header .icon {
+ 	transition: all 0.4s ease;
+}
+
+.ui.small.header:hover .icon{
+ 	transform: scale(1.1) rotate(360deg);
+}
+
+.ui.circular.image {
+	overflow: visible;
+	border: 10px solid #B5CC18;
+ 	transition: all 1s ease;
+}
+
+.column {
+	perspective: 1000;
+
+}
+.ui.circular.image:hover {
+	transform: rotateX(360deg);
+}
+
+img.selfie {
+	min-width: 60px;
+}
+
+.ui.background.grid {
+	position: absolute;
+	top: 0;	bottom: 0;
+	left: 0; right: 0;
+}
+
+.ui.metropolitain.divider {
+	margin-top: 14px !important;
+	border-bottom: 8px solid !important;
+}
+
+.ui.olive.divider {
+	border-bottom-color: #B5CC18 !important;
 }
 
 
 
-.fallingSushi {
-  position: fixed;
-    width: 200%;
-    height: 200%;
-    top: 0;
-    left: 0;
-    background: url('img/sushi_icons2a.png') top center;
-    /*opacity: 0.7;*/
-    /*background-size: cover;*/
-    will-change: transform;
-    /*transform: translateZ(0);*/
-    z-index: -1;
-    animation: fallingSushi 10s infinite  linear;
-}
-
-.selfie {
-  margin-top: 40%;
-}
-
-.buttons {
-  margin-bottom: 30%;
-}
-
-.cv h1, h2, h3, h4, h5, h6 {
-  color: #39546f;
-}
-
-.footer {
-  margin: 20%;
-}
