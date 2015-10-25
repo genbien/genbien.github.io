@@ -1,6 +1,5 @@
 body {
-	background-color: #24425f;
-	background: url('img/swirl_pattern.png');
+	background-color: #002B36;
 }
 
 .box {
@@ -10,6 +9,6 @@ body {
 }
 
 .cv h1, h2, h3, h4, h5, h6 {
-  color: #39546f;
+  color: #7e8e10;
 }
 
