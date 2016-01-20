@@ -37,8 +37,8 @@ body {
 
 .column {
 	perspective: 1000;
-
 }
+
 .ui.circular.image:hover {
 	transform: rotateX(360deg);
 }
