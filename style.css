@@ -20,7 +20,7 @@ html, body {
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
 */
-	 0%{background-color: #FF847C;}
+	0%{background-color: #FF847C;}
 	50%{background-color: #fedcc4;}
 	100%{background-color: #FF847C;}
 }
@@ -263,9 +263,16 @@ table {
 	margin: 150px 0 0;
 }
 
-.left-content .item:first-child {
+/*Switch between left and right items on top of the cv*/
+/*---------------------------------*/
+/*.left-content .item:first-child {
+	margin-top: 0;
+}*/
+
+.right-content .item:first-child {
 	margin-top: 0;
 }
+/*---------------------------------*/
 
 .item::before {
 	content: '';
