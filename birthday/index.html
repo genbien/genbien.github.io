@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)http://stackoverflow.com/questions/39481566/why-are-domain-tickformat-and-tickvalues-not-recognised-inside-dimensions-vari -->
+<html itemscope="" itemtype="http://schema.org/QAPage">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Viendrez vous à mon anniversaire ?</title>
+  <link rel="shortcut icon" href="http://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+  <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+  <meta property="og:type" content="website">
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&amp;a">
+  <link rel="stylesheet" type="text/css" href="./assets/all.css">
+  <link type="text/css" rel="stylesheet" href="./assets/jobs-multi.min.css">
+  <link rel="stylesheet" href="./assets/adFeedback.css">
+</head>
+
+<body class="question-page new-topbar">
+  <div id="notify-container"></div>
+  <div id="custom-header"></div>
+  <div class="topbar">
+    <div class="topbar-wrapper">
+      <div class="js-topbar-dialog-corral">
+        <div class="topbar-dialog siteSwitcher-dialog dno">
+          <div class="header">
+            <h3><a href="#">current community</a></h3>
+          </div>
+          <div class="modal-content current-site-container">
+            <ul class="current-site">
+              <li>
+                <div class="related-links">
+                  <a href="#" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a>
+                </div>
+                <a href="#" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="
+                site_switcher.click({ item_type:3 })">
+                <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+                Stack Overflow
+              </a>
+            </li>
+            <li class="related-site">
+              <div class="L-shaped-icon-container">
+                <span class="L-shaped-icon"></span>
+              </div>
+
+
+
+
+
+              <a href="#" class="site-link js-gps-track" data-id="552" data-gps-track="
+              site.switch({ target_site:552, item_type:3 }),
+              site_switcher.click({ item_type:4 })">
+              <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+              Meta Stack Overflow
+            </a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="header" id="your-communities-header">
+        <h3>
+          your communities        </h3>
+
+        </div>
+        <div class="modal-content" id="your-communities-section">
+
+          <div class="call-to-login">
+            <a href="#" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or <a href="#" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list.
+          </div>
+        </div>
+        <div class="header">
+          <h3><a href="#">more stack exchange communities</a></h3>
+          <a href="#" class="fr">company blog</a>
+        </div>
+        <div class="modal-content">
+          <div class="child-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="network-items">
+      <a href="#" class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 161 Stack Exchange sites">
+        <span class="hidden-text">Stack Exchange</span>
+      </a>
+
+      <a href="#" class="topbar-icon icon-inbox yes-hover js-inbox-button" title="Recent inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="display:none"></span>
+      </a>
+      <a href="#" class="topbar-icon icon-achievements yes-hover js-achievements-button" data-unread-class="" title="Recent achievements: reputation, badges, and privileges earned">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="display:none">
+
+        </span>
+      </a>
+    </div>
+
+    <div class="topbar-links">
+
+      <div class="links-container">
+        <span class="topbar-menu-links">
+          <a href="#" class="login-link">sign up</a>
+          <a href="#" class="login-link">log in</a>
+
+          <a href="#">tour</a>
+          <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+            help
+            <span class="triangle"></span>
+          </a>
+          <div class="topbar-dialog help-dialog js-help-dialog dno">
+            <div class="modal-content">
+              <ul>
+                <li>
+                  <a href="#" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                    Tour
+                    <span class="item-summary">
+                      Start here for a quick overview of the site
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                    Help Center
+                    <span class="item-summary">
+                      Detailed answers to any questions you might have
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                    Meta
+                    <span class="item-summary">
+                      Discuss the workings and policies of this site
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                    About Us
+                    <span class="item-summary">
+                      Learn more about Stack Overflow the company
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                    Business
+                    <span class="item-summary">
+                      Learn more about hiring developers or posting ads with us
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </span>
+      </div>
+
+      <div class="search-container">
+        <form id="search" action="" method="get" autocomplete="off">
+          <input name="q" type="text" placeholder="Search Q&amp;A" value="" tabindex="1" autocomplete="off" maxlength="240">
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div id="header">
+    <br class="cbt">
+    <div id="hlogo">
+      <a href="#">
+        Stack Overflow
+      </a>
+    </div>
+    <div id="hmenus">
+      <div class="nav mainnavs">
+        <ul>
+          <li class="youarehere"><a id="nav-questions"  href="#">Questions</a></li>
+          <li><a id="nav-jobs"  href="#">Jobs</a></li>
+          <li><a id="nav-docs"  href="#">Documentation</a></li>
+          <li><a id="nav-tags"  href="#">Tags</a></li>
+          <li><a id="nav-users"  href="#">Users</a></li>
+          <li><a id="nav-badges"  href="#">Badges</a></li>
+        </ul>
+      </div>
+      <div class="nav askquestion">
+        <ul>
+          <li>
+            <a id="nav-askquestion"  href="#">Ask Question</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="content" class="snippet-hidden">
+
+
+    <div itemscope="" itemtype="http://schema.org/Question">
+      <link itemprop="image" href="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+
+      <div id="question-header">
+        <h1 itemprop="name"><a href="#" class="question-hyperlink">
+          Viendrez vous à mon anniversaire ?
+        </a></h1>
+      </div>
+      <div id="mainbar">
+
+
+
+        <div class="question" data-questionid="39481566" id="question">
+
+          <table>
+            <tbody><tr>
+              <td class="votecell">
+
+
+                <div class="vote">
+                  <input type="hidden" name="_id_" value="39481566">
+                  <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a>
+                  <span itemprop="upvoteCount" class="vote-count-post ">42</span>
+                  <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a>
+
+                  <a class="star-off" href="">favorite</a>
+                  <div class="favoritecount"><b></b></div>
+
+
+                </div>
+
+              </td>
+
+              <td class="postcell">
+                <div>
+                  <div class="post-text" itemprop="text">
+
+                    <p>Le <code>lundi 24 octobre</code> c'est mon anniversaire ! Je sais que faire une soirée le lundi n'est pas très pratique pour tout le monde.
+                    </p>
+
+                    <p>Mais j'aimerais tellement que vous veniez fêter avec moi ! Alors je propse de faire une soirée le <code>samedi 22 octobre</code>. On aura une table dans un bar sans avoir besoin de se batre pour l'obtenir !
+                    </p>
+                    <p>
+                    (Ci dessous les details au format JSON.)
+                    </p>
+
+                    <p>Est-ce que vous pourrez venir ?</p>
+
+<pre class="lang-js prettyprint prettyprinted"><code><span class="pun">{</span><span class="str">
+  "lieu"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="str">
+    "nom"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"Maison Marie"</span><span class="pun">,</span><span class="str">
+    "rue"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"222 Rue Saint-Jacques</span><span class="pun">,</span><span class="str">
+    "ville"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"75005 Paris"</span><span class="pun">
+  },</span><span class="str">
+  "date"</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="str">
+    "jour"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"2016-10-22"</span><span class="pun">,</span><span class="str">
+    "heure"</span><span class="pun">:</span><span class="pln"> </span><span class="str">"20:30 GMT+2"</span><span class="pun">
+  }</span><span class="pun">
+}</span></code></pre>
+
+<!--               <p>However, as you can see from the resulting plot below, my attempt to specify which tick labels are shown (through <code>tickValues</code>) and that they be shown as ordinary numbers rather than powers of 10 (through <code>tickFormat</code>) are not working. Additionally, the axis does not span the domain I specified in <code>scale</code>; it should be [0.1, 100], not [0.1, 60].</p>
+
+              <p>Why is this?</p>
+ -->
+              <!-- <p><a href="#"><img src="./assets/GXEnq.png" alt="Section of Parallel Coordinates Plot"></a></p> -->
+
+<!--               <h1>Code</h1>
+
+              <p>The data.csv, index.html and style.css files for my plot can be found <a href="#">here</a>. When opening locally, it [only] works in Firefox.</p>
+
+              <p>Thanks in advance for any help, and apologies if I'm missing something basic - I'm new to d3.</p> -->
+            </div>
+            <div class="post-taglist">
+              <a href="#" class="post-tag js-gps-track" title="show questions tagged &#39;javascript&#39;" rel="tag">anniversaire</a> <a href="#" class="post-tag js-gps-track" title="show questions tagged &#39;d3.js&#39;" rel="tag">maison marie</a> <a href="#" class="post-tag js-gps-track" title="show questions tagged &#39;plot&#39;" rel="tag">verres</a> 
+            </div>
+            <table class="fw">
+              <tbody><tr>
+                <td class="vt">
+                  <div class="post-menu"><a href="#" title="short permalink to this question" class="short-link" id="link-post-39481566">share</a><span class="lsep">|</span><a href="#" class="suggest-edit-post" title="">improve this question</a></div>        
+                </td>
+                <td align="right" class="post-signature">
+                  <div class="user-info ">
+                    <div class="user-action-time">
+                      <a href="#" title="show all edits to this post">edited <span title="2016-09-14 02:25:57Z" class="relativetime">Oct 15 at 12:47</span></a>
+                    </div>
+                    <div class="user-gravatar32">
+
+                    </div>
+                    <div class="user-details">
+
+                      <div class="-flair">
+
+                      </div>
+                    </div>
+                  </div>    </td>
+                  <td class="post-signature owner">
+                    <div class="user-info ">
+                      <div class="user-action-time">
+                        asked <span title="2016-09-14 02:20:07Z" class="relativetime">Oct 15 at 12:20</span>
+                      </div>
+                      <div class="user-gravatar32">
+                        <a href="#"><div class="gravatar-wrapper-32"><img src="./assets/8be9b6953a09cbbe8c46e13cfeab1cc4" alt="" width="32" height="32"></div></a>
+                      </div>
+                      <div class="user-details">
+                        <a href="#">Genevieve Bienvenue</a>
+                        <div class="-flair">
+                          <span class="reputation-score" title="reputation score " dir="ltr">141</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody></table>
+            </div>
+          </td>
+        </tr>
+        <tr class="bounty-notification">
+          <td colspan="2">
+
+<!--             <div class="question-status bounty">
+              <h2>
+                This question has an open <a href="#">bounty</a> worth     <span class="bounty-award">+50</span>
+                reputation from <a href="#">Luke Thorburn</a> ending <b title="started at 2016-09-19 22:49:08Z
+                ending at 2016-09-26 22:49:08Z">in 2 hours</b>.    </h2>
+                <p>This question has not received enough attention.</p><p>Looking for an answer that explains why my current code isn't working and offers a solution.</p></div> -->
+
+              </td>
+            </tr>
+
+
+            <tr>
+              <td class="votecell"></td>
+              <td>
+               <div id="comments-39481566" class="comments ">
+                <table>
+                  <tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+
+
+                    <tr id="comment-66582229" class="comment ">
+                      <td>
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class=" comment-score">
+                                &nbsp;&nbsp;
+                              </td>
+                              <td>
+                                &nbsp;
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td class="comment-text">
+                        <div style="display: block;" class="comment-body">
+                          <span class="comment-copy">Vous pourriez donner les details au format XML ?</span>
+                          –&nbsp;<a href="#" title="1,087 reputation" class="comment-user">Jean Michel Daube</a>
+                          <span class="comment-date" dir="ltr"><a class="comment-link" href=""><span title="2016-09-22 12:38:22Z" class="relativetime-clean">Oct 15 at 12:38</span></a></span>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr id="comment-66582229" class="comment ">
+                      <td>
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class=" comment-score">
+                                &nbsp;&nbsp;
+                              </td>
+                              <td>
+                                &nbsp;
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td class="comment-text">
+                        <div style="display: block;" class="comment-body">
+                          <span class="comment-copy">Why didn't I get an invitation ?</span>
+                          –&nbsp;<a href="#" title="1,087 reputation" class="comment-user">Noam Chomsky</a>
+                          <span class="comment-date" dir="ltr"><a class="comment-link" href=""><span title="2016-09-22 12:38:22Z" class="relativetime-clean">Oct 15 at 17:45</span></a></span>
+                        </div>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+
+              <div id="comments-link-39481566" data-rep="50" data-anon="true">
+
+                <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno">&nbsp;|&nbsp;</span>
+                <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="" onclick=""></a>
+              </div>         
+            </td>
+          </tr>        </tbody></table>
+        </div>
+
+        <div id="answers">
+
+          <a name="tab-top"></a>
+          <a name="new-answer"></a>
+          <form id="post-form" action="" method="post" class="post-form">
+            <input type="hidden" id="post-id" value="39481566">
+            <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false">
+            <input type="hidden" name="referrer" value="">
+            <h2 class="space">Your Answer</h2>
+
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsZNgNnWJ-2LEKnPAvb9uJDO1ZX-f9pSSr4zxz0X1aDffFhw/viewform?embedded=true" width="728" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+
+            <h2 class="bottom-notice" data-loc="1">
+              Not the answer you're looking for?							Browse other questions tagged <a href="#" class="post-tag" title="show questions tagged &#39;javascript&#39;" rel="tag">aniversaire</a> <a href="#" class="post-tag" title="show questions tagged &#39;d3.js&#39;" rel="tag">Maison Marie</a> <a href="#" class="post-tag" title="show questions tagged &#39;plot&#39;" rel="tag">verres</a>  or <a href="#">ask your own question</a>.						</h2>
+            </div>
+          </div>
+          <div id="sidebar" class="show-votes">
+            <div class="module question-stats">
+             <table id="qinfo">
+               <tbody><tr>
+                 <td>
+                   <p class="label-key">asked</p>
+                 </td>
+                 <td style="padding-left: 10px">
+                   <p class="label-key" title="2016-09-14 02:20:07Z"><b>recently</b></p>
+                 </td>
+               </tr>
+               <tr>
+                 <td>
+                   <p class="label-key">viewed</p>
+                 </td>
+
+                 <td style="padding-left: 10px">
+                   <p class="label-key">
+                     <b>over 9000 times</b>
+                   </p>
+                 </td>
+               </tr>
+               <tr>
+                 <td>
+                   <p class="label-key">active</p>
+                 </td>
+                 <td style="padding-left: 10px">
+                   <p class="label-key"><b><a href="#" class="lastactivity-link" title="2016-09-25 14:21:27Z">just now</a></b></p>
+                 </td>
+               </tr>
+             </tbody></table>
+           </div>
+           <div class="module community-bulletin" data-tracker="cb=1">
+            <div class="related">
+              <div class="bulletin-title">
+                Blog
+              </div>
+              <hr>
+              <div class="spacer">
+                <div class="bulletin-item-type">
+                  <a href="#" class="question-hyperlink">
+                    <div class="favicon favicon-stackexchangemeta" title="Meta Stack Exchange"></div>                </a>
+                  </div>
+                  <div class="bulletin-item-content">
+                    <a href="#" class="question-hyperlink">Podcast #88 - Segfault as a coding style. How it changed my life.</a>
+                  </div>
+                  <br class="cbt">
+                </div>
+              </div>
+            </div>			
+            <div class="everyonelovesstackoverflow blue nearyou tagged clc-jobs-multi orange looking tagged clc-jobs-multi orange looking tagged clc-jobs-multi" id="hireme"><a href="#"  data-at="0" data-tz="1" data-ti="0" class="top "><span>Looking for a job?</span></a><div class="middle"><ul class="jobs"><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="224027"  href="#"  title="Senior Full Stack Software Engineers - passionate, humble problem solvers. at DueCourse. Click to learn more."><div class="title">Fulltime Microsoft Excel Engineer</div><div><span class="company">Ministère de l'interieur</span><span class="location">Paris, FR</span></div><div class="opts"><span class="salary">50 000 - 75 000</span></div><span class="post-tag">office</span><span class="post-tag highlight">windows</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="224027" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="164877"  href="#"  title="Senior Linux System Administrator at Booking.com. Click to learn more."><div class="title">Lead Civilisation V Strategist</div><div><span class="company">Twitch.com</span><span class="location">Amsterdam, NH, Netherlands</span></div><div class="opts"><span class="opt relocate">Relocation</span></div><span class="post-tag">korean</span><span class="post-tag">steam</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="164877" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="216247"  href="#"  title="Experienced Frontend Engineer at Citrusbyte. Click to learn more."><div class="title">Experienced Copus Alignement Worker</div><div><span class="company">LIMSI</span><span class="location">In a deep forest, on a steep hill</span></div><div class="opts"><span class="opt remote">Remote</span><span class="opt relocate">Relocation</span></div><span class="post-tag">patience</span><span class="post-tag">python</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="216247" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li><li class="clc-dismissable"><div class="job-wrap"><a class="job" data-at="0" data-tz="3" data-ti="223859"  href="#"  title="DEVELOPPEUR WEB MOBILES H/F at Societe Generale. Click to learn more."><div class="title">Drying paint supervisor</div><div><span class="company">Trooclick</span><span class="location">Paris, France</span></div><span class="post-tag">daydreaming</span><span class="post-tag">wool gathering</span></a></div><a class="clc-dismiss clc-non-ad" data-clc-url="//clc.stackoverflow.com/dismiss-job" data-clcparam-cid="223859" data-clc-tooltip="dismiss this job"><span class="clc-tooltip above-left">dismiss this job</span></a></li></ul><div style="clear:both"></div></div><img class="impression" src="" style="display:none;"></div>
+
+            <div class="module sidebar-related">
+             <h4 id="h-related">Related</h4>
+             <div class="related js-gps-related-questions" data-tracker="rq=1">
+              <div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">44</div></a><a href="#" class="question-hyperlink">How much wood would a woodchuck chuck if a woodchuck could chuck wood?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="#" class="question-hyperlink">Is this real life?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">0</div></a><a href="#" class="question-hyperlink">Has anyone really been far even as decided to use even go want to do look more like?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">4</div></a><a href="#" class="question-hyperlink">What is a segfault anyway?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">2</div></a><a href="#" class="question-hyperlink">debugging a malloc error.</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="#" class="question-hyperlink">What's a variable again?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">5</div></a><a href="#" class="question-hyperlink">Directions to candy mountain?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="#" class="question-hyperlink">I really hate it when voldemort uses my shampoo</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes answered-accepted default">1</div></a><a href="#" class="question-hyperlink">How to ring a plain bob?</a></div><div class="spacer js-gps-track"><a href="#" title="Vote score (upvotes - downvotes)"><div class="answer-votes default">0</div></a><a href="#" class="question-hyperlink">dynamic time warping on quantum field particles</a></div>
+            </div>
+          </div>
+
+          
+</div>
+
+<div id="feed-link">
+  <div id="feed-link-text">
+    <a href="#" title="feed of this question and its answers">
+      <span class="feed-icon"></span>question feed
+    </a>
+  </div>
+</div><div style="display:none" id="prettify-lang">lang-js</div></div>
+
+
+</div>
+</div>
+<div id="footer" class="categories">
+  <div class="footerwrap">            
+    <div id="footer-menu">
+      <div class="top-footer-links">
+        <a href="#">about us</a>
+        <a href="#">tour</a>
+        <a href="#">help</a>
+        <a href="#">blog</a>
+        <a href="#">chat</a>
+        <a href="#">data</a>
+        <a href="#">legal</a>
+        <a href="#">privacy policy</a>
+        <a href="#">work here</a>
+        <a href="#">advertising info</a>
+
+        <a onclick="StackExchange.switchMobile(&quot;on&quot;)">mobile</a>
+        <b><a href="#">contact us</a></b>
+        <b><a href="#">feedback</a></b>
+
+      </div>
+      <div id="footer-sites">
+        <table>
+          <tbody><tr>
+            <th colspan="4">
+              Technology
+            </th>
+            <th colspan="2">
+              Life / Arts
+            </th>
+            <th colspan="2">
+              Culture / Recreation
+            </th>
+            <th colspan="2">
+              Science
+            </th>
+            <th>
+              Other
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <ol>
+                <li><a href="#" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                <li><a href="#" title="system and network administrators">Server Fault</a></li>
+                <li><a href="#" title="computer enthusiasts and power users">Super User</a></li>
+                <li><a href="#" title="power users of web applications">Web Applications</a></li>
+                <li><a href="#" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                <li><a href="#" title="pro webmasters">Webmasters</a></li>
+                <li><a href="#" title="professional and independent game developers">Game Development</a></li>
+                <li><a href="#" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+              </ol></td><td><ol>
+              <li><a href="#" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+              <li><a href="#" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+              <li><a href="#" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+              <li><a href="#" title="WordPress developers and administrators">WordPress Development</a></li>
+              <li><a href="#" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+              <li><a href="#" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+              <li><a href="#" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+              <li><a href="#" title="information security professionals">Information Security</a></li>
+            </ol></td><td><ol>
+            <li><a href="#" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+            <li><a href="#" title="Drupal developers and administrators">Drupal Answers</a></li>
+            <li><a href="#" title="SharePoint enthusiasts">SharePoint</a></li>
+            <li><a href="#" title="user experience researchers and experts">User Experience</a></li>
+            <li><a href="#" title="users of Mathematica">Mathematica</a></li>
+            <li><a href="#" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+            <li><a href="#" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li>
+            <li><a href="#" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+          </ol></td><td><ol>
+          <li><a href="#" title="peer programmer code reviews">Code Review</a></li>
+          <li><a href="#" title="users of the Magento e-Commerce platform">Magento</a></li>
+          <li><a href="#" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+          <li><a href="#" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+          <li><a href="#" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+
+          <li>
+            <a href="#" class="more">
+              more (7)
+            </a>
+          </li>
+        </ol>
+      </td>
+      <td>
+        <ol>
+          <li><a href="#" title="professional, enthusiast and amateur photographers">Photography</a></li>
+          <li><a href="#" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+          <li><a href="#" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+          <li><a href="#" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+          <li><a href="#" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+          <li><a href="#" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+          <li><a href="#" title="contractors and serious DIYers">Home Improvement</a></li>
+          <li><a href="#" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+        </ol></td><td><ol>
+        <li><a href="#" title="academics and those enrolled in higher education">Academia</a></li>
+
+        <li>
+          <a href="#" class="more">
+            more (8)
+          </a>
+        </li>
+      </ol>
+    </td>
+    <td>
+      <ol>
+        <li><a href="#" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+        <li><a href="#" title="scientific skepticism">Skeptics</a></li>
+        <li><a href="#" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+        <li><a href="#" title="road warriors and seasoned travelers">Travel</a></li>
+        <li><a href="#" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+        <li><a href="#" title="speakers of other languages learning English">English Language Learners</a></li>
+        <li><a href="#" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+        <li><a href="#" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+      </ol></td><td><ol>
+      <li><a href="#" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+      <li><a href="#" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+      <li><a href="#" title="anime and manga fans">Anime &amp; Manga</a></li>
+
+      <li>
+        <a href="#" class="more">
+          more (18)
+        </a>
+      </li>
+    </ol>
+  </td>
+  <td>
+    <ol>
+      <li><a href="#" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+      <li><a href="#" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+      <li><a href="#" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+      <li><a href="#" title="active researchers, academics and students of physics">Physics</a></li>
+      <li><a href="#" title="professional mathematicians">MathOverflow</a></li>
+      <li><a href="#" title="scientists, academics, teachers and students">Chemistry</a></li>
+      <li><a href="#" title="biology researchers, academics, and students">Biology</a></li>
+      <li><a href="#" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+    </ol></td><td><ol>
+    <li><a href="#" title="those interested in logical reasoning">Philosophy</a></li>
+
+    <li>
+      <a href="#" class="more">
+        more (3)
+      </a>
+    </li>
+  </ol>
+</td>
+<td>
+  <ol>
+    <li><a href="#" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+    <li><a href="#" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+    <li><a href="#" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+    <li><a href="#">Stack Overflow Careers</a></li>
+
+  </ol>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div id="copyright">
+  site design / logo © 2016 Stack Exchange Inc; user contributions licensed under <a href="#" rel="license">cc by-sa 3.0</a> 
+  with <a href="#" rel="license">attribution required</a>
+</div>
+<div id="svnrev">
+  rev 2016.9.26.4008
+</div>
+</div>
+</div>
+
+</body></html>
